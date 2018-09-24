@@ -10,7 +10,6 @@ import App from "./ui-views/App";
 import registerServiceWorker from "./registerServiceWorker";
 
 const theme = createMuiTheme(themeObject);
-
 ReactDOM.render(
   <MuiThemeProvider theme={theme}>
     <Provider store={store}>

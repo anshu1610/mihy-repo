@@ -1,4 +1,4 @@
-import {dashBoardOption} from "./dashboard-utils";
+import { dashBoardOption } from "./dashboard-utils";
 
 const screenConfig = {
   uiFramework: "material-ui",
@@ -7,19 +7,19 @@ const screenConfig = {
     mihyBloodDashboard: {
       uiFramework: "custom-atoms",
       componentPath: "Div",
-      children:{
-        mihyBloodDashboardAppCarosel:{
-          uiFramework:"custom-molecules",
-          componentPath:"AppCarosel",
-          props:{
-            
-          }
-        },
-        mihyBloodDashboardAppCards:{
-          uiFramework:"custom-molecules",
-          componentPath:"AppCards",
-          props:{
-            appCards:dashBoardOption
+      children: {
+        // mihyBloodDashboardAppCarosel:{
+        //   uiFramework:"custom-molecules",
+        //   componentPath:"AppCarosel",
+        //   props:{
+
+        //   }
+        // },
+        mihyBloodDashboardAppCards: {
+          uiFramework: "custom-molecules",
+          componentPath: "AppCards",
+          props: {
+            appCards: dashBoardOption
           }
         }
       }
